@@ -28,4 +28,4 @@ require 'memcached/integer'
 require 'memcached/exceptions'
 require 'memcached/behaviors'
 require 'memcached/memcached'
-require 'memcached/rails'
+require 'memcached/rails' if defined?(RAILS_ENV)
